@@ -1,0 +1,45 @@
+/*калькулятор*/
+VARINT n1
+VARINT n2
+VARINT result
+VARCHAR symb
+
+PRINT "Calculator\n"
+
+WHILE 1
+
+PRINT "Первое число: "
+INPUT n1
+PRINT "Второе число: "
+INPUT n2
+PRINT "Знак: "
+INPUT symb
+
+SWITCH symb
+
+CASE s"+"
+result = n1+n2
+PRINT result
+PRINT "\n"
+ENDCASE
+
+CASE s"-"
+result = n1-n2
+PRINT result
+PRINT "\n"
+ENDCASE
+
+CASE s"*"
+result = n1*n2
+PRINT result
+PRINT "\n"
+ENDCASE
+
+CASE s"/"
+result = n1/n2
+PRINT result
+PRINT "\n"
+ENDCASE
+ENDSWITCH
+
+ENDWHILE
