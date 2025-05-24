@@ -1,2 +1,2 @@
-# rolton-basic
+# RoltonBasic
 RoltonBasic - простой интерпретируемый язык программирования с BASIC-подобным синтаксисом
